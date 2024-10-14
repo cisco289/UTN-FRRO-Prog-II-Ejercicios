@@ -24,7 +24,7 @@ var persona = {
         return this.nombre + "" + this.apellido
     }
 }
-console.log(persona) //imprimo el objeto
+console.log(Number) //imprimo el objeto
 
 String = "cadena de tezto"
 

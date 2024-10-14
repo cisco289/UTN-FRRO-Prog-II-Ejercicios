@@ -8,7 +8,7 @@ var password = "123.asd";
 var contador = 0; 
 
 do{
-    var passwordin = prompt("login");
+    var passwordin = prompt("login ");
     if (passwordin == password){
         alert("login sucess");          //alert similar to console.log
         break; 
