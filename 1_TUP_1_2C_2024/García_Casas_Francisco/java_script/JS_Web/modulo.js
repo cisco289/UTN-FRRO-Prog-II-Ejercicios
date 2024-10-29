@@ -1,18 +1,16 @@
-//papa = "pelada" // *defino variable papa como un tipo de texto= 'pelada'
-//alert (papa)
 
-//? tipos de variables = var, let, const
-//const
-const num = 3.14  //* las constantes no pueden cambiar su valor (valor de IVA o de PI)
-//let
+papa = "pelada" //defino variable papa como un tipo de texto= 'pelada'
+//*alert (papa)
+
+//! tipos de variables = var, let, const
+const num = 3.14  //las constantes no pueden cambiar su valor (valor de IVA o de PI)
+
 let numero = 11
-//alert (numero)
-
 let numero2, numero3, numero4
 numero2 = 2
 numero3 = 3
 numero4 = 4
-//alert (numero2)
+//*alert (numero2)
 
 let n = null
 //var

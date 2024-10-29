@@ -14,17 +14,20 @@ class Estudiante {
   
 
   // Clase Curso : representa un curso, que tiene un nombre, profesor y una lista de estudiantes
+  //nombre del curso
+  //nombre del profesor a cargo del curso
+  //array vacío que almacenará objetos de tipo Estudiante
   class Curso {
     constructor(nombre, profesor) {
       this.nombre = nombre;
       this.profesor = profesor;
-      this.estudiantes = [];
+      this.estudiantes = [];   
     }
     //Metodo o funcion, que agrega un estudiante a la lista de estudiantes del curso
     agregarEstudiante(estudiante) {
       this.estudiantes.push(estudiante);
     }
-  
+    //! Poder editar cada estudiante
     listarEstudiantes() {
       console.log(`Estudiantes en el curso ${this.nombre}:`);
       this.estudiantes.forEach(est => est.presentarse());

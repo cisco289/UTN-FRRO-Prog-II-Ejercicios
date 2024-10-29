@@ -5,7 +5,6 @@ class Estudiante {
       this.edad = edad;
       this.nota = nota;
     }
-  
     presentarse() {
       return `${this.nombre} (${this.edad} años) - Nota: ${this.nota}`;
     }
@@ -69,10 +68,11 @@ class Estudiante {
     e.preventDefault();
     
     // Capturar datos del formulario
-    const nombreEstudiante = document.getElementById('nombre-estudiante').value;
+    const nombreEstudiante = (document.getElementById('nombre-estudiante').value);
     const edadEstudiante = parseInt(document.getElementById('edad-estudiante').value);
     const notaEstudiante = parseFloat(document.getElementById('nota-estudiante').value);
     const cursoIndex = cursoEstudianteSelect.value;
+    
     
     // Crear un nuevo estudiante
     const nuevoEstudiante = new Estudiante(nombreEstudiante, edadEstudiante, notaEstudiante);

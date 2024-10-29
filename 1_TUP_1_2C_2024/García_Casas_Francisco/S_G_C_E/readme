@@ -4,13 +4,13 @@ Trabajo Practico Integrador, Programacion II; "Sistema de Gestion de Cursos Estu
 cursos y estudiantes utilizando clases, objetos y arrays.
 El sistema debe cumplir con los siguientes requerimientos: <---
 
-...Etapa 1...
+...Etapa 1... (Boceto de trabajo)
 
 clases, objetos y arrays. El sistema debe cumplir con los siguientes requerimientos: 
   1. Clase "Curso": 
     o Propiedades: 
-      ▪ nombre: nombre del curso. 
-      ▪ profesor: nombre del profesor a cargo del curso. 
+      ▪ nombre: nombre del curso. YES
+      ▪ profesor: nombre del profesor a cargo del curso. YES
       ▪ estudiantes: un array vacío que almacenará objetos de tipo Estudiante. 
     o Métodos: 
       ▪ agregarEstudiante(estudiante): recibe un objeto de tipo Estudiante y lo agrega al array estudiantes. 
@@ -28,7 +28,7 @@ clases, objetos y arrays. El sistema debe cumplir con los siguientes requerimien
     o Agrega entre 2 y 5 estudiantes a cada curso. 
     o Muestra en la consola el listado de estudiantes por curso, junto con su promedio general.
 
-----Etapa 2 (expansion con html y css)...
+...Etapa 2 (expansion con html y css) (Boceto de trabajo)... 
 
 1. Formulario para agregar cursos: 
   o Un formulario donde puedas ingresar el nombre del curso y el profesor, y agregar el curso a una lista visual en la página. 
