@@ -1,0 +1,27 @@
+<!-- templates/index.html -->
+<!-- main -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="C:\Users\54346\Documents\GitHub\UTN-FRRO-Prog-II-Ejercicios\1_TUP_1_2C_2024\Garcia_Casas_Francisco\photo_album\static\style.css"
+    <title>{{ 'Editar Foto' if photo else 'Agregar Foto' }}</title>
+</head>
+<body>
+    <form action="{{ url_for('photos.edit_photo', photo_id=photo.id) if photo else url_for('photos.add_photo') }}" method="POST">
+        <label for="title">Título:</label>
+        <input type="text" name="title" value="{{ photo.title if photo else '' }}" required><br>
+
+        <label for="description">Descripción:</label>
+        <textarea name="description">imagen</textarea><br>
+
+        <label for="image">Ruta de la Imagen:</label>
+        <input type="text" name="image" value="{{ photo.image if photo else '' }}" required><br>
+
+        <button type="submit">{{ 'Actualizar Foto' if photo else 'Agregar Foto' }}</button>
+    </form>
+</body>
+</html>
+
+
+
